@@ -1,0 +1,113 @@
+body {background-color: white;}
+
+#calculator
+{
+	width: 250px;
+	height: 370px;
+	border: 5px solid black;
+	text-align: center;
+	margin: 150px auto;
+	background: black;
+	opacity: 0.7;
+	border-radius: 20px;
+
+}
+
+#display
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 220px;
+	text-align: right;
+	border-color: white;
+	height: 40px;
+	font: 20px bold;
+	color:white;
+	background-color: black;
+}
+
+#keys
+{
+	width: 41px;
+	height: 35px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	cursor: pointer;
+	border-radius: 50px;
+	border-style: solid;
+	border-color: black;
+	background-color: white;
+	color: black;
+	opacity: 0.9;
+
+}
+
+#keys:hover
+{
+	background: gray;
+	color: black;
+	font-weight: bold;
+}
+
+#equal
+{
+	margin-left: 10px;
+	height: 35px;
+	width: 80px;
+	cursor: pointer;
+	background-color: white;
+	color: black;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+}
+
+#equal:hover
+{
+	background: gray;
+	color: black;
+	font-weight: bold;
+}
+
+#ac
+{
+	margin-left: 10px;
+	height: 35px;
+	width: 90px;
+	cursor: pointer;
+	border-color: black;
+	border-style: solid;
+	border-radius: 10px;
+	background-color: red;
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+
+}
+
+#ac:hover
+{
+	background: red;
+	color: white;
+	font-weight: bold;
+}
+
+#zero
+{
+	margin-left: 10px;
+	height: 35px;
+	width: 60px;
+	cursor: pointer;
+	border-color: black;
+	border-style: solid;
+	border-radius: 10px;
+	background-color: white;
+}
+
+#zero:hover
+{
+	background: gray;
+	color: black;
+	font-weight: bold;
+
+}
